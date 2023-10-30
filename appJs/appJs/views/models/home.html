@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/views/css/styles.css">
+</head>
+<body ng-app="myApp">
+    <section class="highlight-featured-games" ng-controller="homeController">
+        <h2 class="section-title">Highlight Games</h2>
+        <div class="game-list">
+            <ul>
+                <li ng-repeat="game in highlightGames">
+                    <game-card-directive game="game" show-wishlist-button="true" show-cart-button="true"></game-card-directive>
+                </li>
+            </ul>
+        </div>
+
+        <h2 class="section-title">Games</h2>
+        <div class="game-list-container" id="gameListContainer" scroll="loadMoreGames()">
+            <ul class="game-list-cont">
+                <li ng-repeat="game in featuredGames">
+                    <game-card-directive game="game" show-wishlist-button="true" show-cart-button="true"></game-card-directive>
+                </li>
+                <li id="scrollPlaceholder"></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

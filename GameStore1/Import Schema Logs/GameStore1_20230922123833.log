@@ -1,0 +1,87 @@
+22/09/2023 01:38:33	This log contains information about the import schema operation into project 'GameStore1' on computer 'ME-ALUIS' by user 'aluis'.
+22/09/2023 01:40:10	Import of database schema has started.
+22/09/2023 01:40:10	Gathering database credentials
+22/09/2023 01:40:10	Gathering database options
+22/09/2023 01:40:10	Gathering generic database scoped configuration option
+22/09/2023 01:40:10	Gathering users
+22/09/2023 01:40:10	Gathering roles
+22/09/2023 01:40:10	Gathering application roles
+22/09/2023 01:40:10	Gathering role memberships
+22/09/2023 01:40:10	Gathering filegroups
+22/09/2023 01:40:10	Gathering full-text catalogs
+22/09/2023 01:40:10	Gathering assemblies
+22/09/2023 01:40:11	Gathering certificates
+22/09/2023 01:40:11	Gathering asymmetric keys
+22/09/2023 01:40:11	Gathering symmetric keys
+22/09/2023 01:40:11	Gathering encrypted symmetric keys
+22/09/2023 01:40:11	Gathering schemas
+22/09/2023 01:40:11	Gathering XML schema collections
+22/09/2023 01:40:11	Gathering user-defined data types
+22/09/2023 01:40:11	Gathering user-defined types
+22/09/2023 01:40:11	Gathering table types
+22/09/2023 01:40:11	Gathering unique keys for table types
+22/09/2023 01:40:11	Gathering primary keys for table types
+22/09/2023 01:40:11	Gathering indexes for table types
+22/09/2023 01:40:11	Gathering check constraints for table types
+22/09/2023 01:40:11	Gathering default constraints for table types
+22/09/2023 01:40:11	Gathering partition functions
+22/09/2023 01:40:11	Gathering partition schemes
+22/09/2023 01:40:11	Gathering functions
+22/09/2023 01:40:11	Gathering encrypted functions
+22/09/2023 01:40:11	Gathering aggregates
+22/09/2023 01:40:11	Gathering procedures
+22/09/2023 01:40:11	Gathering encrypted procedures
+22/09/2023 01:40:11	Gathering tables
+22/09/2023 01:40:11	Gathering primary keys
+22/09/2023 01:40:11	Gathering unique constraints
+22/09/2023 01:40:11	Gathering foreign keys
+22/09/2023 01:40:11	Gathering default constraints
+22/09/2023 01:40:11	Gathering check constraints
+22/09/2023 01:40:11	Gathering views
+22/09/2023 01:40:11	Gathering encrypted views
+22/09/2023 01:40:11	Gathering indexes
+22/09/2023 01:40:11	Gathering statistics
+22/09/2023 01:40:11	Gathering full-text index stoplists
+22/09/2023 01:40:11	Gathering search property lists
+22/09/2023 01:40:11	Gathering search properties
+22/09/2023 01:40:11	Gathering full-text indexes
+22/09/2023 01:40:11	Gathering column store indexes
+22/09/2023 01:40:11	Gathering spatial indexes
+22/09/2023 01:40:11	Gathering XML indexes
+22/09/2023 01:40:11	Gathering Selective XML indexes
+22/09/2023 01:40:11	Gathering encrypted triggers
+22/09/2023 01:40:11	Gathering triggers
+22/09/2023 01:40:11	Gathering encrypted and clr ddl triggers
+22/09/2023 01:40:11	Gathering ddl triggers
+22/09/2023 01:40:11	Creating edge constraints
+22/09/2023 01:40:11	Gathering synonyms
+22/09/2023 01:40:11	Gathering defaults
+22/09/2023 01:40:11	Gathering data constraint uddt bindings
+22/09/2023 01:40:11	Gathering rules
+22/09/2023 01:40:11	Gathering data constraint uddt bindings
+22/09/2023 01:40:11	Gathering message types
+22/09/2023 01:40:11	Gathering queues
+22/09/2023 01:40:11	Gathering contracts
+22/09/2023 01:40:12	Gathering services
+22/09/2023 01:40:12	Gathering event notifications
+22/09/2023 01:40:12	Gathering remote service bindings
+22/09/2023 01:40:12	Gathering broker priorities
+22/09/2023 01:40:12	Gathering signatures
+22/09/2023 01:40:12	Gathering data compression options
+22/09/2023 01:40:12	Gathering sequence types
+22/09/2023 01:40:12	Gathering security policies
+22/09/2023 01:40:12	Gather column encryption keys
+22/09/2023 01:40:12	Gathering column master keys
+22/09/2023 01:40:12	Gathering external data sources
+22/09/2023 01:40:12	Gathering external file formats
+22/09/2023 01:40:12	Gathering external tables
+22/09/2023 01:40:12	Gathering extended properties
+22/09/2023 01:40:14	Gathering assemblies
+22/09/2023 01:40:15	Gathering credentials
+22/09/2023 01:40:15	Gathering logins
+22/09/2023 01:40:15	Gathering server audits
+22/09/2023 01:40:15	Scanning project for duplicate elements
+22/09/2023 01:40:15	Finished duplicate element processing
+22/09/2023 01:40:15	Finished importing database.
+22/09/2023 01:40:15	A summary of the import was saved to the following location: C:\Users\aluis\Documents\GameStore1\Import Schema Logs\GameStore1_20230922123833.log
+22/09/2023 01:40:15	Click Finish to continue...

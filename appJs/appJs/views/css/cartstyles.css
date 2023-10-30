@@ -1,0 +1,144 @@
+﻿.section-title {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.game-list {
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F2F9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.cart-container h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.item-image {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.item-details p {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.remove-button,
+.btn-primary,
+.btn-default{
+    background-color: #5A4097;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-button:hover,
+.removeOne-button:hover,
+.remove-button:hover,
+.btn-primary:hover,
+.btn-default:hover{
+    background-color: #c0392b;
+}
+
+.game-item {
+    width: 950px;
+    height: 200px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    background-color: #FEFDFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-thumbnail {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.game-image {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.game-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.game-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-info {
+    font-size: 14px;
+    margin: 0;
+    color: #666;
+    text-align: center;
+}
+
+.horizontal-card .game-details {
+    flex-direction: row;
+}
+
+.horizontal-card .game-info {
+    margin-right: 10px;
+}
+
+h2, p {
+    color: #5A4097;
+}
+
+.add-button,
+.removeOne-button {
+    background-color: #5A4097;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px 20px;
+    cursor: pointer;
+}

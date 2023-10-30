@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/views/css/styles.css">
+</head>
+<body ng-controller="wishlistController">
+    <div class="wishlist-container">
+        <h2>Wish List</h2>
+        <ul class="wishlist-items">
+            <li ng-repeat="game in wishlistItems" class="wishlist-item">
+                <game-card-directive game="game" show-cart-button="true"></game-card-directive>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

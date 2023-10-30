@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/views/css/styles.css">
+</head>
+<body ng-controller="libraryController">
+    <div class="library-container">
+        <h2>Purchases </h2>
+        <ul class="library-items">
+            <li ng-repeat="item in libraryItems" class="library-item">
+                <game-card-directive game="item"></game-card-directive>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

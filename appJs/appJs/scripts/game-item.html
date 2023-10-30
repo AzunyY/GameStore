@@ -1,0 +1,25 @@
+﻿<div class="game-item">
+    <div class="game-thumbnail">
+        <img class="game-image" ng-src="{{'/views/img/' + game.Image}}" alt="{{game.Title}}" width="100" height="120">
+    </div>
+    <div class="game-details">
+        <h2 class="game-name">{{game.Title}}</h2>
+        <p ng-if="!isCartView" class="game-info">ESRB: {{game.ESBR}}</p>
+        <p class="game-info">Price: ${{game.Price}}</p>
+        <p ng-if="isCartView">Quantity: {{game.quantity}}</p>
+
+        <div ng-controller="cartController">
+            <button class="add-to-cart-button" ng-click="addToCart(game)" ng-if="showCartButton">Add to Cart</button>
+        </div>
+        <div ng-controller="wishListController">
+            <button class="add-to-wishlist-button" ng-click="addToWishlist(game.GameId)" ng-if="showWishlistButton">Add to Wishlist</button>
+        </div>
+        <div ng-controller="cartController">
+            <button class="add-button" ng-click="addToCart(game)" ng-if="showAddButton">+</button>
+            <button class="removeOne-button" ng-click="removeFromCart(game.GameId)" ng-if="showRemoveOneButton">-</button>
+        </div>
+        <div ng-controller="cartController">
+            <button class="remove-button" ng-click="removeAllFromCart(game.GameId)" ng-if="showRemoveButton">Remove</button>
+        </div>
+    </div>
+</div>

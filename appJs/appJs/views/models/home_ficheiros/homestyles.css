@@ -1,0 +1,148 @@
+﻿body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+nav ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+    nav ul.menu li {
+        margin-right: 1rem;
+    }
+
+        nav ul.menu li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul.menu li a {
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+            nav ul.menu li a:hover {
+                color: #ff9900;
+            }
+
+.highlight {
+    background-color: #fff;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.highlight-game {
+    flex: 1;
+}
+
+.highlight h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.highlight p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.highlight a.read-more {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .highlight a.read-more:hover {
+        background-color: #333;
+    }
+
+.highlight-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.game {
+    background-color: #fff;
+    width: 30%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+    .game h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .game p {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 1rem;
+    }
+
+    .game a.read-more {
+        display: inline-block;
+        background-color: #ff9900;
+        color: #fff;
+        padding: 0.3rem 0.6rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+        .game a.read-more:hover {
+            background-color: #333;
+        }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}

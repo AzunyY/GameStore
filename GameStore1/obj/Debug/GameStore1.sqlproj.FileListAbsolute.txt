@@ -1,0 +1,6 @@
+C:\Users\aluis\Documents\GameStore1\bin\Debug\GameStore1.dacpac
+C:\Users\aluis\Documents\GameStore1\bin\Debug\GameStore1.dll
+C:\Users\aluis\Documents\GameStore1\bin\Debug\GameStore1.pdb
+C:\Users\aluis\Documents\GameStore1\obj\Debug\GameStore1.dll
+C:\Users\aluis\Documents\GameStore1\obj\Debug\GameStore1.pdb
+C:\Users\aluis\Documents\GameStore1\obj\Debug\GameStore1.sqlproj.AssemblyReference.cache
